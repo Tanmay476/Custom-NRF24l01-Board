@@ -10,10 +10,10 @@ Compatibility: Works with common microcontrollers such as Arduino, STM32, and ES
 ## Power Filters
 **Capacitors (C7, C8, C9):** These capacitors (33nF, 10nF, and 1nF) are used for power supply decoupling. They filter out noise and stabilize the power line to the nRF24L01+.
 - Different capacitors can filter different noises, and the use of (33nF, 10nF, and 1nF) capacitors can cover a wide range of noises
-- Formula: E = 12CV2
-      - E: energy stored in a capacitor
-      - C is the capacitance in farads (F)
-      - V is the voltage across the capacitor.
+- Formula: E = (1/2)CV^2
+        - E: energy stored in a capacitor
+        - C is the capacitance in farads (F)
+        - V is the voltage across the capacitor.
 **Resistor (R2):** A 22kΩ resistor used as a pull-up for the VDD line, providing stability to the power supply input.
 ### Crystal Oscillator Circuit (X1, C1, C2, R1)
 **Crystal (X1):** A 16 MHz crystal provides a stable clock frequency for the nRF24L01+.
