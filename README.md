@@ -11,16 +11,16 @@ Compatibility: Works with common microcontrollers such as Arduino, STM32, and ES
 **Capacitors (C7, C8, C9):** These capacitors (33nF, 10nF, and 1nF) are used for power supply decoupling. They filter out noise and stabilize the power line to the nRF24L01+.
 - Different capacitors can filter different noises, and the use of (33nF, 10nF, and 1nF) capacitors can cover a wide range of noises
 - Formula: E = (1/2)CV^2
-        - E: energy stored in a capacitor
-        - C is the capacitance in farads (F)
-        - V is the voltage across the capacitor.
+    - E: energy stored in a capacitor
+    - C is the capacitance in farads (F)
+    - V is the voltage across the capacitor.
 **Resistor (R2):** A 22kΩ resistor used as a pull-up for the VDD line, providing stability to the power supply input.
 ### Crystal Oscillator Circuit (X1, C1, C2, R1)
 **Crystal (X1):** A 16 MHz crystal provides a stable clock frequency for the nRF24L01+.
 **Capacitors (C1, C2):** These 22pF capacitors are connected to ground and they establishes a balanced resonant condition, allowing the crystal to oscillate accurately at 16 MHz.
 **Resistor (R1):** A 1MΩ resistor across the crystal to ensure proper startup of the oscillator circuit.
 ### RF Network (L1, L2, L3, C3, C4, C5, C6)
-**Inductors (L1, L2, L3):* These inductors (8.2nH, 2.7nH, 3.9nH) are part of a matching network, helping to match the impedance of the nRF24L01+ output to the antenna.
+**Inductors (L1, L2, L3):** These inductors (8.2nH, 2.7nH, 3.9nH) are part of a matching network, helping to match the impedance of the nRF24L01+ output to the antenna.
 **Capacitors (C3, C4, C5, C6):**
 - C3 and C4 (2.2nF and 4.7pF): Used to filter and stabilize the RF signal.
 - C5 (1.5pF) and C6 (1.0pF): Part of the antenna matching circuit to optimize RF performance.
