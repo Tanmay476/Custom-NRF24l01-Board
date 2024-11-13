@@ -17,6 +17,7 @@ Compatibility: Works with common microcontrollers such as Arduino, STM32, and ES
 **Resistor (R2):** A 22kΩ resistor used as a pull-up for the VDD line, providing stability to the power supply input.
 ### Crystal Oscillator Circuit (X1, C1, C2, R1)
 **Crystal (X1):** A 16 MHz crystal provides a stable clock frequency for the nRF24L01+.
+
 **Capacitors (C1, C2):** These 22pF capacitors are connected to ground and they establishes a balanced resonant condition, allowing the crystal to oscillate accurately at 16 MHz.
 
 **Resistor (R1):** A 1MΩ resistor across the crystal to ensure proper startup of the oscillator circuit.
