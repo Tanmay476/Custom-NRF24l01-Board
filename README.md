@@ -18,6 +18,7 @@ Compatibility: Works with common microcontrollers such as Arduino, STM32, and ES
 ### Crystal Oscillator Circuit (X1, C1, C2, R1)
 **Crystal (X1):** A 16 MHz crystal provides a stable clock frequency for the nRF24L01+.
 **Capacitors (C1, C2):** These 22pF capacitors are connected to ground and they establishes a balanced resonant condition, allowing the crystal to oscillate accurately at 16 MHz.
+
 **Resistor (R1):** A 1MΩ resistor across the crystal to ensure proper startup of the oscillator circuit.
 ### RF Network (L1, L2, L3, C3, C4, C5, C6)
 **Inductors (L1, L2, L3):** These inductors (8.2nH, 2.7nH, 3.9nH) are part of a matching network, helping to match the impedance of the nRF24L01+ output to the antenna.
