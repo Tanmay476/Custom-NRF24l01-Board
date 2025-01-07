@@ -1,0 +1,50 @@
+# KiCad backup and temporary files
+*.bak
+*.tmp
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.kicad_pro-bak
+
+# Backup directories
+backup/
+__pycache__/
+
+# Cache files
+.cache/
+*.sch-prl
+*.kicad_prl
+
+# Simulation cache files
+*.ac
+*.log
+*.out
+*.raw
+*.s*
+
+# Build and output files (generated files)
+*.gbr
+*.drl
+*.map
+*.rpt
+*.pos
+*.gtp
+*.gts
+*.gto
+*.gbs
+*.gbo
+*.drd
+*.csv
+*.bom
+*.zip
+
+# Gerber files and manufacturing outputs
+*.ger
+*.pdf
+
+# Logs and reports
+*.log
+*.rpt
+
+# Personal configuration files
+*.swp
+*.bak
